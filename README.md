@@ -29,6 +29,7 @@
     |   - Number of pages
     |   - Width
     |   - Length
+    |   - Location
     |   - Author
     |   - Number of sheets
     |   - SHA256
