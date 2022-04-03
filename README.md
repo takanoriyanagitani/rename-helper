@@ -2,13 +2,24 @@
 
 ```
 
-+------------+
-| Item Store |
-+------------+
++--------------+
+| Item Service |
++--------------+
     |
     | Item Info
     |   - Name
-    |   - Store dependent info(encoding, disk usage, namespace, ...)
+    |   - Store dependent info
+    |       - encoding
+    |       - disk usage
+    |       - namespace
+    |       - inode number
+    |       - number of hard links
+    |       - shared
+    |       - read only
+    |       - archived
+    |       - modified
+    |       - uploaded
+    |       - ....
     v
 +---------------------------+
 | Item Content Info Service |
@@ -23,9 +34,9 @@
     |   - SHA256
     |   - ...
     v
-+----------------------+
-| Item Meta Info Store |
-+----------------------+
++--------------+
+| Name Service |
++--------------+
     |
     | Rename Info
     |   - ./0001.jpg -> ./2022/04/03/0001.jpg
