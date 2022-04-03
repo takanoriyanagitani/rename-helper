@@ -10,9 +10,9 @@
     |   - Name
     |   - Store dependent info(encoding, disk usage, namespace, ...)
     v
-+------------------------+
-| Item Meta Info Service |
-+------------------------+
++---------------------------+
+| Item Content Info Service |
++---------------------------+
     |
     | Item Content Info
     |   - Number of pages
