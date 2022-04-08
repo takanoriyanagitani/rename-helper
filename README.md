@@ -8,7 +8,7 @@
     |
     | Item Info
     |   - Name
-    |   - Store dependent info
+    |   - Data source dependent info
     |       - encoding
     |       - disk usage
     |       - namespace
